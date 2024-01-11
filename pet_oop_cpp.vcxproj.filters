@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{e38172ba-df2f-4213-95c7-beba15452e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pet">
+      <UniqueIdentifier>{9449f07d-c889-41d0-b5a8-85e96f04fea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cat">
+      <UniqueIdentifier>{916e2b0c-49f3-4c93-98e4-155b8a8555a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dog">
+      <UniqueIdentifier>{0122fc3c-e4c5-4a80-9994-2bdcd87759b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parrot">
+      <UniqueIdentifier>{f98e0eb1-9d02-40a2-a662-e7588f9f1c70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="pet.cpp">
+      <Filter>pet</Filter>
+    </ClCompile>
+    <ClCompile Include="cat.cpp">
+      <Filter>cat</Filter>
+    </ClCompile>
+    <ClCompile Include="dog.cpp">
+      <Filter>dog</Filter>
+    </ClCompile>
+    <ClCompile Include="parrot.cpp">
+      <Filter>parrot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pet.h">
+      <Filter>pet</Filter>
+    </ClInclude>
+    <ClInclude Include="cat.h">
+      <Filter>cat</Filter>
+    </ClInclude>
+    <ClInclude Include="dog.h">
+      <Filter>dog</Filter>
+    </ClInclude>
+    <ClInclude Include="parrot.h">
+      <Filter>parrot</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
